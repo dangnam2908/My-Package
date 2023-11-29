@@ -1,5 +1,6 @@
 import javax.validation.Constraint;
 import javax.validation.Payload;
+import java.io.Serializable;
 import java.lang.annotation.*;
 
 @Documented

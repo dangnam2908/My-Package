@@ -4,7 +4,7 @@ import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 import java.util.regex.Pattern;
 
-class PhoneValidator implements ConstraintValidator<Phone, String> {
+class PhoneValidator implements ConstraintValidator<Phone, String>{
 
     @Override
     public void initialize(Phone constraintAnnotation) {
