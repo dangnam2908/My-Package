@@ -1,4 +1,6 @@
+package com.dangnam.util.annotations;
 
+import com.dangnam.util.exceptions.ExceptionOm;
 import lombok.RequiredArgsConstructor;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
@@ -29,7 +31,7 @@ public class PermissionOmAspect {
     }
   }
 
-  @Before("@annotation(PermissionOm)")
+  @Before("@annotation(com.dangnam.util.annotations.PermissionOm)")
   public void process(JoinPoint joinPoint) {
     MethodSignature signature = (MethodSignature) joinPoint.getSignature();
     Method method = signature.getMethod();
@@ -42,7 +44,7 @@ public class PermissionOmAspect {
       if (authToken != null) break;
     }
     if (authToken == null) {
-      System.out.println("Header required authorization");
+      throw new ExceptionOm(HttpStatus.BAD_REQUEST, "Header required authorization");
     }
   }
 }
