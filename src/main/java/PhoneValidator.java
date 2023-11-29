@@ -1,9 +1,14 @@
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
+
 import java.lang.annotation.Annotation;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 import java.util.regex.Pattern;
 
+//@Aspect
+@Component
 class PhoneValidator implements ConstraintValidator<Phone, String>{
 
     @Override
