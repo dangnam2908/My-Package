@@ -1,4 +1,4 @@
-package com.dangnam.util.utils;
+package com.github.dangnam2908.utils;
 
 public class Slug {
   public static String makeSlug(String input) {

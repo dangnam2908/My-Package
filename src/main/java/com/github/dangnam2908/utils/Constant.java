@@ -1,4 +1,4 @@
-package com.dangnam.util.utils;
+package com.github.dangnam2908.utils;
 
 public class Constant {
   public static final String headerUserId = "x-om-user-id";

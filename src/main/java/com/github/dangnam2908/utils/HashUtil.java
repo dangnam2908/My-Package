@@ -1,4 +1,4 @@
-package com.dangnam.util.utils;
+package com.github.dangnam2908.utils;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;

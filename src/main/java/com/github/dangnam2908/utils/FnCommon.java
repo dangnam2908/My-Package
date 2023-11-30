@@ -1,4 +1,4 @@
-package com.dangnam.util.utils;
+package com.github.dangnam2908.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;

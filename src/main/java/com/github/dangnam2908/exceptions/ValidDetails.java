@@ -1,4 +1,4 @@
-package com.dangnam.util.exceptions;
+package com.github.dangnam2908.exceptions;
 
 import lombok.Data;
 

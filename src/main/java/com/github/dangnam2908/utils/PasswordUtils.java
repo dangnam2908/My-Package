@@ -1,4 +1,4 @@
-package com.dangnam.util.utils;
+package com.github.dangnam2908.utils;
 
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;

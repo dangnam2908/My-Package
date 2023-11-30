@@ -1,4 +1,4 @@
-package com.dangnam.util.utils.values;
+package com.github.dangnam2908.utils.values;
 
 import lombok.Data;
 import org.springframework.http.HttpHeaders;

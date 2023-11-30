@@ -1,4 +1,4 @@
-package com.dangnam.util.utils;
+package com.github.dangnam2908.utils;
 
 import com.dangnam.util.utils.values.HttpResponse;
 import org.springframework.http.HttpEntity;
