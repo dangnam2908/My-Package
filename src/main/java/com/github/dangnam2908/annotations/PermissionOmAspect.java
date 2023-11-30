@@ -1,6 +1,5 @@
 package com.github.dangnam2908.annotations;
-
-import com.github.dangnam2908.exceptions.ExceptionOm;
+;
 import lombok.RequiredArgsConstructor;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
@@ -44,7 +43,7 @@ public class PermissionOmAspect {
       if (authToken != null) break;
     }
     if (authToken == null) {
-      throw new ExceptionOm(HttpStatus.BAD_REQUEST, "Header required authorization");
+      System.out.println( "Header required authorization");;
     }
   }
 }
